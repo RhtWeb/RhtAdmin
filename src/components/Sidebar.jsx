@@ -1,4 +1,4 @@
-import React from 'react';
+import "./styleFolder/bar.css";
 import {
   LineStyle,
   Timeline,
@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className="menu">
         <span>Dashboard</span>
         <div className="menuWrapper">
-          <div className="menuItem">
+          <div className="menuItem active">
             <LineStyle className="sidebarIcon" /> Home
           </div>
           <div className="menuItem">
