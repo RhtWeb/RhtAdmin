@@ -1,9 +1,15 @@
 import './App.css';
+import Topbar from './components/Topbar.jsx';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      RHT Admin Panel
+      <Topbar />
+      <div className="container">
+        <Sidebar />
+        <div className="others">Hello</div>
+      </div>
     </div>
   );
 }
