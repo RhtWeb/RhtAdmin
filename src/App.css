@@ -1,0 +1,17 @@
+/* Generic css  */
+.border {
+  border: 1px solid black;
+}
+
+.imgContainer {
+  border-radius: 50%;
+  background-color: rgb(238, 213, 159);
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+/* Style App  */
+.container {
+  display: flex;
+}

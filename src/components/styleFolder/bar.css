@@ -1,0 +1,83 @@
+/* TopBar  */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  position: sticky;
+  top: 0%;
+  z-index: 2;
+  background-color: rgb(244, 246, 252);
+}
+
+.topbar .left h1 {
+  color: blue;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.topbar .right {
+  display: flex;
+  align-items: center;
+}
+
+.topbar .right .topIconContent {
+  position: relative;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.topbar .right .topIconContent .IconCounter {
+  position: absolute;
+  top: -5px;
+  left: 0.75rem;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+/* SideBar  */
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 56px);
+  position: sticky;
+  top: 56px;
+  background-color: rgb(251, 251, 255);
+}
+
+.sidebar .menu {
+  margin: 0.75rem 1rem;
+  font-size: 10px;
+  color: #555;
+}
+
+.sidebar .menu span {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
+}
+
+.sidebar .menu .menuWrapper {
+  margin-left: 1rem;
+}
+
+.sidebar .menu .menuWrapper .menuItem{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+}
+
+.sidebar .menu .menuWrapper .menuItem.active,
+.sidebar .menu .menuWrapper .menuItem:hover {
+  background-color: rgb(240, 240, 255);
+}
+
+.sidebarIcon{
+    margin-right: 10px;
+}
