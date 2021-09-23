@@ -7,9 +7,9 @@ const InfoSection = () => {
       <div className="infoItem">
         <div className="infoHead">Revanue</div>
         <div className="infoStat">
-          <div className="infoMoney">$1,415</div>
+          <div className="infoMoney">&#8377; 3,415</div>
           <div className="infoRate">
-            -11.5
+            15.5
             <ArrowUpward className="infoIcon" />
           </div>
         </div>
@@ -21,9 +21,9 @@ const InfoSection = () => {
       <div className="infoItem">
         <div className="infoHead">Sales</div>
         <div className="infoStat">
-          <div className="infoMoney">$1,415</div>
+          <div className="infoMoney">&#x20B9; 1,005</div>
           <div className="infoRate">
-            -11.5
+            08.5
             <ArrowUpward className="infoIcon" />
           </div>
         </div>
@@ -35,7 +35,7 @@ const InfoSection = () => {
       <div className="infoItem">
         <div className="infoHead">Cost</div>
         <div className="infoStat">
-          <div className="infoMoney">$1,415</div>
+          <div className="infoMoney">&#8377; 1,015</div>
           <div className="infoRate">
             -11.5
             <ArrowDownward className="infoIcon negative" />

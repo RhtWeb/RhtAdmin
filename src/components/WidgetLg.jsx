@@ -27,7 +27,7 @@ const WidgetLg = () => {
                 </div> Rohit Singh
               </td>
               <td className="lightText">2 Jun 2021</td>
-              <td className="lightText">$122.00</td>
+              <td className="lightText">&#8377; 122.00</td>
               <td>
                 <Button type="Approved" />
               </td>
@@ -39,7 +39,7 @@ const WidgetLg = () => {
                   </div> Pratap Verma
                 </td>
                 <td className="lightText">5 May 2021</td>
-                <td className="lightText">$212.00</td>
+                <td className="lightText">&#8377; 212.00</td>
                 <td>
                   <Button type="Declined" />
                 </td>
@@ -51,7 +51,7 @@ const WidgetLg = () => {
                 </div> Ravi Sharma
               </td>
               <td className="lightText">5 Feb 2021</td>
-              <td className="lightText">$012.00</td>
+              <td className="lightText">&#8377; 012.00</td>
               <td>
                 <Button type="Pending" />
               </td>
@@ -63,7 +63,7 @@ const WidgetLg = () => {
                 </div> Rajveer Singh
               </td>
               <td className="lightText">1 Feb 2021</td>
-              <td className="lightText">$112.00</td>
+              <td className="lightText">&#8377; 112.00</td>
               <td>
                 <Button type="Approved" />
               </td>
@@ -75,7 +75,7 @@ const WidgetLg = () => {
                 </div> Aman Sen
               </td>
               <td className="lightText">25 Jan 2021</td>
-              <td className="lightText">$142.00</td>
+              <td className="lightText">&#8377; 142.00</td>
               <td>
                 <Button type="Pending" />
               </td>
