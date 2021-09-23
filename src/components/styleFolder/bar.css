@@ -7,7 +7,8 @@
   position: sticky;
   top: 0%;
   z-index: 2;
-  background-color: rgb(244, 246, 252);
+  /* background-color: rgb(244, 246, 252); */
+  background-color: white;
 }
 
 .topbar .left h1 {
@@ -51,7 +52,7 @@
 
 .sidebar .menu {
   margin: 0.75rem 1rem;
-  font-size: 10px;
+  font-size: 1rem;
   color: #555;
 }
 
