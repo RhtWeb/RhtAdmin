@@ -8,6 +8,7 @@
   top: 0%;
   z-index: 2;
   /* background-color: rgb(244, 246, 252); */
+  background-color: white;
 }
 
 .topbar .left h1 {
