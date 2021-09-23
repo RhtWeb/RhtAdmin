@@ -63,3 +63,10 @@
 .chartTitle {
   margin-bottom: 20px;
 }
+
+/* HomeWidget  */
+.homeWidget {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 20px;
+}
