@@ -28,7 +28,7 @@ export const userData = [
     "Active User": 4000,
   },
   {
-    name: "Agu",
+    name: "Aug",
     "Active User": 3000,
   },
   {
@@ -67,39 +67,39 @@ export const productData = [
 export const userRows = [
   {
     id: 1,
-    username: "Jon Snow",
+    username: "Rohit Singh",
     avatar:
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    email: "jon@gmail.com",
+    email: "rht@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "120.00",
   },
   {
     id: 2,
-    username: "Jon Snow",
+    username: "Podar verma",
     avatar:
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    email: "jon@gmail.com",
+    email: "podar@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "180.00",
   },
   {
     id: 3,
-    username: "Jon Snow",
+    username: "ram raven",
     avatar:
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    email: "jon@gmail.com",
+    email: "ram@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "050.00",
   },
   {
     id: 4,
-    username: "Jon Snow",
+    username: "pawan sharma",
     avatar:
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    email: "jon@gmail.com",
+    email: "pawan@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "180.00",
   },
   {
     id: 5,
@@ -108,7 +108,7 @@ export const userRows = [
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "jon@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "120.00",
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ export const userRows = [
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "jon@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "120.00",
   },
   {
     id: 7,
@@ -126,7 +126,7 @@ export const userRows = [
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "jon@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "120.00",
   },
   {
     id: 8,
@@ -135,7 +135,7 @@ export const userRows = [
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "jon@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "120.00",
   },
   {
     id: 9,
@@ -144,7 +144,7 @@ export const userRows = [
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "jon@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "120.00",
   },
   {
     id: 10,
@@ -153,7 +153,7 @@ export const userRows = [
       "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "jon@gmail.com",
     status: "active",
-    transaction: "$120.00",
+    transaction: "120.00",
   },
 ];
 
