@@ -38,6 +38,13 @@ const UserTable = () => {
       field: "transaction",
       headerName: "Transaction Volume",
       width: 200,
+      renderCell: (params) => {
+        return (
+          <>
+            &#8377; {params.row.transaction}
+          </>
+        );
+      },
     },
     {
       field: "action",

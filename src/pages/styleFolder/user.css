@@ -1,3 +1,4 @@
+/* User Table  */
 .userListUser {
   display: flex;
   align-items: center;
@@ -24,4 +25,138 @@ margin-right: 10px;
 .userListDelete{
   color: red;
   cursor: pointer;
+}
+
+/* Edit User  */
+.editUser {
+  padding: 20px;
+}
+
+.editUser .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editUser .editWrap {
+  display: flex;
+  margin-top: 20px;
+}
+
+.editUser .editWrap .userData {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.editUser .editWrap .userData .userTitle {
+  display: flex;
+  align-items: center;
+}
+
+.editUser .editWrap .userData .userTitle .titleContainer {
+  margin-left: 20px;
+}
+
+.editUser .editWrap .userData .userTitle .titleContainer h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.editUser .editWrap .userData .userBody h4 {
+  color: #9b9c9c;
+  margin: 20px 0;
+}
+
+.editUser .editWrap .userData .userBody .userinfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.editUser .editWrap .userData .userBody .userinfo .iconedit {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.editUser .editWrap .editData {
+  flex: 2;
+  margin-left: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.editUser .editWrap .editData {
+  padding: 20px;
+}
+
+.editUser .editWrap .editData h4 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.editUser .editWrap .editData form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editUser .editWrap .editData form .editleft h5 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.editUser .editWrap .editData form .editleft input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  width: 200%;
+}
+
+.editUser .editWrap .editData form .editright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.editUser .editWrap .editData form .editright .picUpload {
+  display: flex;
+  align-items: center;
+}
+
+.editUser .editWrap .editData form .editright .picUpload .imgContainer {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.editUser .editWrap .editData form .editright .picUpload label {
+  cursor: pointer;
+}
+
+.editUser .editWrap .editData form .editright .picUpload input {
+  display: none;
+}
+
+.userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.userUpdateButton{
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
 }
